@@ -23,7 +23,7 @@ src/
 ├── App.jsx        # Componente principal
 └── main.jsx       # Punto de entrada
 ```
-✍️ Funcionalidades
+### ✍️ Funcionalidades
 Visualización dinámica de posts consumidos desde una API
 
 Banner visual animado con letras estilo "Matrix"
@@ -34,14 +34,14 @@ Panel de administración para publicaciones (sólo admins - en desarrollo)
 
 Página de detalle por cada publicación
 
-🔐 Buenas Prácticas
+### 🔐 Buenas Prácticas
 No se incluye información sensible en el código
 
 Variables de entorno manejadas desde .env
 
 .env está protegido por .gitignore y no se sube al repositorio
 
-📦 Instalación Local
+### 📦 Instalación Local
 Clona el repositorio:
 ```bash
 git clone https://github.com/tu-usuario/web-byte-a-byte.git
