@@ -16,8 +16,10 @@
 src/
 ├── components/    # Componentes reutilizables
 ├── pages/         # Vistas principales (Home, Login, etc.)
+│    └── Home.jsx  
 ├── context/       # Contextos globales como Auth
 ├── routes/        # Configuración de rutas
+│    └── AppRouter.jsx
 ├── services/      # Cliente Axios para la API
 ├── styles/        # Archivos CSS (App.css, index.css)
 ├── App.jsx        # Componente principal
