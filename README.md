@@ -16,7 +16,9 @@
 src/
 ├── components/    # Componentes reutilizables
 ├── pages/         # Vistas principales (Home, Login, etc.)
-│    └── Home.jsx  
+│    └── Home.jsx 
+├── assets/
+│    └── react.svg
 ├── context/       # Contextos globales como Auth
 ├── routes/        # Configuración de rutas
 │    └── AppRouter.jsx
