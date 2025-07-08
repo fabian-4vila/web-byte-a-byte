@@ -29,13 +29,9 @@ src/
 ```
 ### ✍️ Funcionalidades
 Visualización dinámica de posts consumidos desde una API
-
 Banner visual animado con letras estilo "Matrix"
-
 Sistema de autenticación (próximamente)
-
 Panel de administración para publicaciones (sólo admins - en desarrollo)
-
 Página de detalle por cada publicación
 
 ### 🔐 Buenas Prácticas
