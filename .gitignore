@@ -1,5 +1,5 @@
 # ---------------------------------
-# Node.js
+# Node.js & Bun
 # ---------------------------------
 node_modules/
 npm-debug.log*
@@ -7,6 +7,16 @@ yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
+
+# Lockfiles (ignora si usas solo Bun)
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Bun & Volta
+.bun/
+bunfig.toml    # ignóralo solo si es local, si es global al proyecto NO lo ignores
+.volta/
 
 # ---------------------------------
 # Build outputs
@@ -18,14 +28,19 @@ out/
 .cache/
 .next/
 .vercel/
+.storybook-out/
+.turbo/
 
 # ---------------------------------
-# Vite local env
+# Env files
 # ---------------------------------
+.env
+.env.*
+!.env.example
 *.local
 .env.local
 .env.*.local
-.env
+
 # ---------------------------------
 # Logs
 # ---------------------------------
@@ -68,21 +83,3 @@ coverage/
 # Optional: TypeScript
 # ---------------------------------
 *.tsbuildinfo
-
-# ---------------------------------
-# Optional: JetBrains Rider
-# ---------------------------------
-.idea/
-
-# ---------------------------------
-# Optional: VSCode settings
-# ---------------------------------
-.vscode/
-
-# ---------------------------------
-# Optional: Storybook
-# ---------------------------------
-.storybook-out/
-
-# Optional: TurboRepo
-.turbo/
